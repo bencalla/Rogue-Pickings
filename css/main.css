@@ -1,0 +1,142 @@
+/*****BASE STYLES*****/
+body{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*****GRID*****/
+.full-width{
+  margin: 0 auto;
+  overflow: auto;
+  width: 1240px;
+}
+
+.half-width{
+  float: left;
+  width: 600px;
+}
+
+.third-width{
+  float: left;
+  width: 400px;
+}
+
+/*****HEADER*****/
+header{
+  height: 110px;
+  margin: 0 auto;
+}
+
+header h1{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 38px 0;
+  text-transform: uppercase;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  padding: 46px 0;
+}
+
+nav ul li{
+  color: #77a466;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*****ABOUT*****/
+#about{
+  margin: 10px auto 10px auto;
+}
+
+#about img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+#about h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  line-height: 23px;
+  padding-left: 24px;
+  text-transform: uppercase;
+}
+
+#about p{
+  font-size: 16px;
+  line-height: 23px;
+  padding: 0 40px 0 24px;
+}
+
+/*****WORK*****/
+#work{
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+#work h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#work h4{
+  color: #77a466;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+#specials, #reviews{
+  border-right: 1px solid #eeeeee;
+}
+
+#work .third-width{
+  padding-left: 30px;
+  width: 380px;
+}
+
+#reviews p{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer{
+  margin: 34px auto 34px auto;
+}
+
+footer h2{
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer span{
+  color: #89b07a;
+  font-family: 'Galada', cursive;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 23px;
+  text-transform: lowercase;
+}
